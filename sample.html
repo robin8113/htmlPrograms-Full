@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body style="background-color:red;">
+  <div class="header">
+
+<img src="3.jpg" style="height: 7em;width: 6em;margin-top: 5px;">
+
+<h1 style="margin-top: -56px;margin-left: 24px;color: darkgoldenrod;">ob's</h1>
+
+</div>
+
+<div class="subheader">
+  <p style="text-align: center;margin-top:10px;"> <span style="color:black;font-weight:bold;margin-left: 734px;font-family: monospace;">  Home</span>  <span style="color:black;font-weight:bold;margin-left: 20px;font-family: monospace;">   About</span>  <span style="color:black;font-weight:bold;margin-left: 20px;font-family: monospace;">  Team</span></p>
+</div>
+<div class="section">
+  <div class="row">
+  <img src="4.jpg" style="width: 100%;">
+  </div>
+  <div class="row">
+    <h1 class="about">About Us</h1>
+    <p style="margin-left: 522px;font-family: sans-serif;color: cyan;">You can get a sense for Nike's two primary purposes almost instantly -- fitness, and people. When you first open their company profile you're greeted with videos of people of different ages, gender, and nationalities playing sports.<br><br><br>
+Additionally, their initial introduction is this: "Bring inspiration and innovation to every athlete* in the world". Below, beside the asteric, it says, "If you have a body, you are an athlete". As you scroll, you'll see information on their internal diversity and inclusion initiative, their global community impact, and their sustainable business program, with very little mention of their products.</p>
+    <iframe width="420" height="315" style="margin-top: -195px;"  src="https://www.youtube.com/embed/SIXndxpmCHo?autoplay=1" style="margin-left:2%;"></iframe>
+  <div>
+    <div class="row">
+      <h1 class="about">Products</h1>
+      <marquee direction="right" scrollamount="30"><div><img src="9.jpg"  class="rob">
+        <img src="5.jpg"  class="rob">
+        <img src="6.jpg" class="rob" >
+        <img src="7.jpg" class="rob" >
+        <img src="8.jpg" class="rob">
+        <div></marquee>
+
+</div>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2 style="font-family: sans-serif;">Contact Us</h2>
+    <p style="font-family: sans-serif;">Swing by for a match you need, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="10.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form>
+        <label for="fname" style="font-family: sans-serif;">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname" style="font-family: sans-serif;">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country" style="font-family: sans-serif;">State</label>
+        <select id="country" name="country">
+          <option value="Kerala">Kerala</option>
+          <option value="Bangloore">Bangloore</option>
+          <option value="Delhi">Delhi</option>
+        </select>
+        <label for="subject" style="font-family: sans-serif;">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <h4 style="text-align:center;color:white;font-family: sans-serif;"> Copyright@2019</h4>
+</div>
+</body>
+<style>
+.header{
+  height: 6em;
+  width: 100%;
+  background-color: black;
+  margin-top: -21px;
+
+}
+.rob
+{
+  height: 300px;
+ width: 300px;
+ margin-left:10px;
+}
+p{
+  margin-top: 10px;
+}
+body{
+  margin: 0;
+}
+.subheader{
+  height: 24px;
+  width: 100%;
+  background-color: white;
+  margin-top: -21px;
+
+}
+.footer{
+  height: 47px;
+  width: 100%;
+  background-color: black;
+  margin-top: -21px;
+}
+.about
+{
+  text-align: center;
+      font-family: monospace;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</html>
