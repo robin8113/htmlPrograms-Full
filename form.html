@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+        <title>Form</title>
+  </head>
+         <body>
+           <!--creating a form-->
+                <form method="post" action="https://www.youtube.com">
+                      <fieldset>
+                               <!--creating a group for details-->
+                               <legend>Your Details:</legend>
+                                <label >
+                                       Name:
+                                       <input type="text" name="username" value="" placeholder="Name" size="20" maxlength="30" required="required"><br>
+                                       <!--for entering name-->
+                                </label>
+                                <label>
+                                  Email:  <input type="email" name="password" value="" placeholder="Email" size="20" maxlength="30" required="required"><br>
+                                  <!--for entering email-->
+                                </label>
+
+                     </fieldset>
+
+                     <fieldset>
+                              <!--creating a group for review-->
+                              <legend>Your Review:</legend>
+                              <label ><br>
+                                    How did you hear about us?
+
+                                    <!--Creating a check box for selecting-->
+                                    <select class="rob" name="Google">
+                                          <option value="Google">Google</option>
+                                          <option value="Yahoo">Yahoo</option>
+                                          <option value="Wilkipedia">Wilkipedia</option>
+                                          <option value="other source">Oter source</option>
+                                    </select>
+                              </label><br><br>
+                                     <!--Creating a Radio Buttons for selecting-->
+                              <label>Would You like to visit again?<br>
+                                    <input type="radio" name="password" value="yes"  size="20" maxlength="30">Yes
+                                    <input type="radio" name="password" value="No"  size="20" maxlength="30">No
+                                    <input type="radio" name="password" value="No"  size="20" maxlength="30">Maybe
+                                    <br><br>
+                              </label>
+
+                             <label>Comments:<br>
+                                     <!--Creating a text area for comments-->
+                                    <textarea name="name" rows="4" cols="80">
+
+                                    </textarea>
+                                    <br><br>
+                             </label>
+
+                             <label>
+                                    <!--Creating a checkbox-->
+                                   <input type="checkbox" name="rob" value="" select="selected"> sign me up for email updates<br>
+                             </label>
+                                     <!--Creating a Submitt Button-->
+                                    <input type="submit" name="sub" value="Submit Review">
+
+                      </fieldset>
+
+
+              </form>
+        </body>
+</html>
