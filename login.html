@@ -1,72 +1,637 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+  <!DOCTYPE html>
+  <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Login</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>login</title>
   </head>
   <body>
-<!--Starting a table-->
-        <div class="rob">
-            <table>
-              <!--Starting a Header-->
-                    <tr>
-                        <td colspan="2" style="padding-left: 106px;"><h2>Login Form</h2></td><br>
-                    </tr>
-                    <tr>
-              <!--closing header-->
-                        <td>
-                          <!--Starting username-->
-                            <label for="Name"><h3 class="size">  Username :</h3>
-                            </label>
-                        </td>
-                        <td>
-                            <input type="text" name="user" value="" placeholder="Username" required="required">
-                        </td>
-                        <!--Closing username-->
-                    </tr>
-                    <tr>
-                        <td>
-                          <!--Starting password-->
-                            <label for="Name"> <h3 class="size"> Password :</h3>
-                            </label>
-                        </td>
-                        <td>
-                            <input type="text" name="user" value="" placeholder="Password" required="required">
-                        </td>
-                        <!--closing password-->
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="submit" name="" value="Login" style="background-color: #18dc18;margin-left: 103px;width: 71px;height: 30px;">
-                        </td>
-                        <!--To add new member-->
-                        <td>
-                            <a href="registation.html">New Member</a>
-                        </td>
-                    </tr>
-            </table>
-            <!--closing the table-->
+    <!-- starting a div  -->
+    <div class="split left">
+      <!-- starting a div  -->
+      <div class="centered1 centr">
+        <img src="hhead.png" class="logo" alt="Avatar woman">
+        <h2 class="ddu">DDU-GKY</h2>
+        <div class="snav"><i class="fa fa-podcast rob"> Announcements</i>
         </div>
+        <div class="snav">  <i class="fa fa-eye rob" style="margin-left: 5em;">  User Management</i>
+        </div>
+        <div class="snav">   <i class="fa fa-institution rob" style="margin-left: 1em;"> Training</i>
+        </div>
+        <div class="snav"> <i class="fa fa-file rob" style="margin-left: 2em;"> Assesments</i>
+        </div>
+        <div class="snav"> <i class="fa fa-mortar-board rob" style="margin-left: 2em;"> Jobs Board</i>
+        </div>
+        <div class="snav"> <i class="fa fa-calendar-o rob" style="margin-left: 1em;"> Calendar</i>
+        </div>
+        <div class="snav"> <i class="fa fa-cog rob" style="margin-left: 1em;"> Settings</i>
+        </div>
+        <p>Some text.
+        </p>
+      </div>
+      <!-- closing the div -->
+    </div>
+    <!-- closing the div -->
+    <!-- starting adiv -->
+    <div class="split right" style="width:80%;">
+      <!-- starting a div -->
+      <div class="heads">
+        <!-- starting a span -->
+        <span>
+          <button type="button" value="Students" class="studs" style="background-color:#00d48a;color:white;">Students
+          </button>
+        </span>
+        <!-- closing span -->
+        <span><button type="button" value="a" class="studs">Admins
+        </button>
+      </span>
+
+      <span >
+        <p align="right" style="margin-top: -47px;">
+
+          <select class="studs1">
+            <option value="volvo" style="background-image: url('https://image.flaticon.com/icons/png/512/35/35920.png');">Export Users</option>
+          </select>
+
+          <select class="studs1">
+            <option value="volvo">Add Users</option>
+          </select>
+        </p>
+      </span>
+
+    </div>
+
+
+    <h3 class="quick">Quick Action</h3>
+    <span><button type="button" value="Students" class="studs2" ><i class="fa fa-users" aria-hidden="true"></i> Student Groups</button></span><span><button type="button" value="a" class="studs2"><i class="fa fa-files-o" aria-hidden="true"></i> Document Verification</button></span> <span><button type="button" value="a" class="studs2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Attributes</button></span>
+
+    <input type="text" style="margin-left: 28px;width: 160px;padding: 7px;" placeholder="Search..">
+
+    <p align="right" style="margin-top: -59px;margin-left: -18px;margin-right: 16px;"><b> show <select class="studs1" style="width: 42px;background-color:white;"><option value="volvo"><b>10</b></option>
+    </select> entries </b></p>
+
+
+
+    <table style="border-radius: 5px;" >
+      <tr class="first">
+        <td style="padding-left: 0em;">
+          <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+        </td>
+        <td>
+          <b>Student Name</b>
+        </td>
+        <td style="padding-left:2em;">
+          <i class="fa fa-sort-asc" aria-hidden="true" style="color:blue;"></i>
+        </td>
+        <td>
+          <b>Student Id</b>
+        </td>
+        <td>
+          <b>Batch</b>
+        </td>
+        <td>
+          <b>Department</b>
+        </td>
+        <td>
+          <b>Degree</b>
+        </td>
+      </tr>
+
+      <tr >
+        <td style="padding-left: 0em;">
+          <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+        </td>
+        <td>
+          Shinu Thomas
+        </td>
+        <td style="padding-left:2em;">
+          <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+        </td>
+        <td>
+          PGK 236
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          Electronics and Communication
+        </td>
+        <td>
+          B.Tech
+        </td>
+      </tr>
+      <tr >
+        <td style="padding-left: 0em;">
+          <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+        </td>
+        <td>
+          ADITHYA S
+        </td>
+        <td style="padding-left:2em;">
+          <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          Computer Science Engineering(CSE)
+        </td>
+        <td>
+          B.Tech
+        </td>
+      </tr>
+      <tr >
+        <td style="padding-left: 0em;">
+          <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+        </td>
+        <td>
+          AMEENA A R
+        </td>
+        <td style="padding-left:2em;">
+          <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+        </td>
+        <td>
+          PGK 310
+        </td>
+        <td>
+          2019
+        </td>
+        <td>
+          Computer Science Engineering(CSE)
+        </td>
+        <td>
+          B.Tech
+        </td>
+      </tr>
+      <tr >
+        <td style="padding-left: 0em;">
+          <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+        </td>
+        <td>
+          ANNA DONA JAMES
+        </td>
+        <td style="padding-left:2em;">
+          <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+        </td>
+        <td>
+          PGK 302
+        </td>
+        <td>
+          2014-2019
+        </td>
+        <td>
+          Computer Science Engineering(CSE)
+        </td>
+        <td>
+          MCA
+        </td>
+      </tr>
+      <tr >
+        <td style="padding-left: 0em;">
+          <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+        </td>
+        <td>
+          ANNA JOY
+        </td>
+        <td style="padding-left:2em;">
+          <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+        </td>
+        <td>
+          PGK 301
+        </td>
+        <td>
+          2019
+        </td>
+        <td>
+          Computer Science Engineering(CSE)
+        </td>
+        <td>
+          B.Tech
+        </td>
+      </tr>
+      <tr >
+        <td style="padding-left: 0em;">
+          <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+        </td>
+        <td>
+          ARUN SUNNY
+        </td>
+        <td style="padding-left:2em;">
+          <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+        </td>
+        <td>
+          777
+        </td>
+        <td>
+          2019
+        </td>
+        <td>
+          Computer Science Engineering(CSE)
+        </td>
+        <td>
+          B.Tech
+        </td>
+      </tr>
+      <tr >
+        <td style="padding-left: 0em;">
+          <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+        </td>
+        <td>
+          ASWATHI K
+        </td>
+        <td style="padding-left:2em;">
+          <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          2014-2019
+        </td>
+        <td>
+          Computer Science Engineering(CSE)
+        </td>
+        <td>
+          B.Tech
+        </td>
+      </tr>
+      <tr >
+        <td style="padding-left: 0em;">
+          <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+        </td>
+        <td>
+          ABHI SHAJEE
+        </td>
+        <td style="padding-left:2em;">
+          <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          2019
+        </td>
+        <td>
+          Others(Others)
+        </td>
+        <td>
+          others
+        </td>
+      </tr>
+      <table>
+      </div>
 
     </body>
-    <!--starting the styles we used-->
-              <style media="screen">
-                  .rob
-                  {
-                    text-align:center;
-                    background-color: lavender;
-                    height:45%;
-                    width:40%;
-                    position: absolute;
-                    margin-left: 384px;
-                  }
-                  .size
-                  {
-                    margin-left: 56px;
-                  }
-                  input{
-                    height: 28px;
-                  }
-              </style>
-              <!--closing the Styles -->
-</html>
+    </html>
+    <!DOCTYPE html>
+    <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>login</title>
+    </head>
+    <body>
+      <!-- starting a div  -->
+      <div class="split left">
+        <!-- starting a div  -->
+        <div class="centered1 centr">
+          <img src="hhead.png" class="logo" alt="Avatar woman">
+          <h2 class="ddu">DDU-GKY</h2>
+          <div class="snav"><i class="fa fa-podcast rob"> Announcements</i>
+          </div>
+          <div class="snav">  <i class="fa fa-eye rob" style="margin-left: 5em;">  User Management</i>
+          </div>
+          <div class="snav">   <i class="fa fa-institution rob" style="margin-left: 1em;"> Training</i>
+          </div>
+          <div class="snav"> <i class="fa fa-file rob" style="margin-left: 2em;"> Assesments</i>
+          </div>
+          <div class="snav"> <i class="fa fa-mortar-board rob" style="margin-left: 2em;"> Jobs Board</i>
+          </div>
+          <div class="snav"> <i class="fa fa-calendar-o rob" style="margin-left: 1em;"> Calendar</i>
+          </div>
+          <div class="snav"> <i class="fa fa-cog rob" style="margin-left: 1em;"> Settings</i>
+          </div>
+          <p>Some text.
+          </p>
+        </div>
+        <!-- closing the div -->
+      </div>
+      <!-- closing the div -->
+      <!-- starting adiv -->
+      <div class="split right" style="width:80%;">
+        <!-- starting a div -->
+        <div class="heads">
+          <!-- starting a span -->
+          <span>
+            <button type="button" value="Students" class="studs" style="background-color:#00d48a;color:white;">Students
+            </button>
+          </span>
+          <!-- closing span -->
+          <span><button type="button" value="a" class="studs">Admins
+          </button>
+        </span>
+        <!-- starting a span -->
+        <span >
+          <p align="right" style="margin-top: -47px;">
+          <!-- starting a dropdown-->
+            <select class="studs1">
+              <option value="volvo" style="background-image: url('https://image.flaticon.com/icons/png/512/35/35920.png');">Export Users
+              </option>
+            </select>
+            <!-- closing the dropdown-->
+            <!-- starting a select-->
+            <select class="studs1">
+              <option value="volvo">Add Users
+              </option>
+            </select>
+            <!-- closing a select-->
+          </p>
+        </span>
+        <!-- closing a span-->
+      </div>
+      <!-- closing div-->
+
+      <h3 class="quick">Quick Action</h3>
+      <!-- starting a span -->
+      <span>
+        <button type="button" value="Students" class="studs2" ><i class="fa fa-users" aria-hidden="true"></i> Student Groups
+        </button>
+      </span>
+      <!-- closing span -->
+      <!-- starting a span -->
+      <span>
+        <button type="button" value="a" class="studs2"><i class="fa fa-files-o" aria-hidden="true"></i> Document Verification
+        </button>
+      </span>
+      <!-- closing span -->
+      <!-- starting a span -->
+      <span>
+        <button type="button" value="a" class="studs2"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Attributes
+        </button>
+      </span>
+      <!-- closing span -->
+
+      <input type="text" style="margin-left: 28px;width: 160px;padding: 7px;" placeholder="Search..">
+
+      <p align="right" style="margin-top: -59px;margin-left: -18px;margin-right: 16px;"><b> show
+        <!-- starting a dropdown-->
+        <select class="studs1" style="width: 42px;background-color:white;">
+          <option value="volvo"><b>10</b>
+          </option>
+      </select> entries </b></p>
+      <!-- closing dropdown-->
+
+      <!-- starting a table -->
+
+      <table style="border-radius: 5px;" >
+        <!-- starting a table row -->
+        <tr class="first">
+          <!-- starting the columns -->
+          <td style="padding-left: 0em;">
+            <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+          </td>
+          <td>
+            <b>Student Name</b>
+          </td>
+          <td style="padding-left:2em;">
+            <i class="fa fa-sort-asc" aria-hidden="true" style="color:blue;"></i>
+          </td>
+          <td>
+            <b>Student Id</b>
+          </td>
+          <td>
+            <b>Batch</b>
+          </td>
+          <td>
+            <b>Department</b>
+          </td>
+          <td>
+            <b>Degree</b>
+          </td>
+          <!-- closing columns -->
+        </tr>
+        <!-- closing the roe -->
+        <!-- starting another row -->
+        <tr >
+          <!-- starting column -->
+          <td style="padding-left: 0em;">
+            <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+          </td>
+          <td>
+            Shinu Thomas
+          </td>
+          <td style="padding-left:2em;">
+            <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+          </td>
+          <td>
+            PGK 236
+          </td>
+          <td>
+            2
+          </td>
+          <td>
+            Electronics and Communication
+          </td>
+          <td>
+            B.Tech
+          </td>
+          <!-- closing column -->
+        </tr>
+        <!-- closing row -->
+        <!-- starting a row -->
+        <tr >
+          <!-- starting a column -->
+          <td style="padding-left: 0em;">
+            <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+          </td>
+          <td>
+            ADITHYA S
+          </td>
+          <td style="padding-left:2em;">
+            <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+          </td>
+          <td>
+            3
+          </td>
+          <td>
+            3
+          </td>
+          <td>
+            Computer Science Engineering(CSE)
+          </td>
+          <td>
+            B.Tech
+          </td>
+          <!-- closing column -->
+        </tr>
+        <!-- closing row -->
+        <!-- starting row -->
+        <tr >
+          <!-- starting column -->
+          <td style="padding-left: 0em;">
+            <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+          </td>
+          <td>
+            AMEENA A R
+          </td>
+          <td style="padding-left:2em;">
+            <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+          </td>
+          <td>
+            PGK 310
+          </td>
+          <td>
+            2019
+          </td>
+          <td>
+            Computer Science Engineering(CSE)
+          </td>
+          <td>
+            B.Tech
+          </td>
+          <!-- closing column -->
+        </tr>
+        <!-- closing row -->
+        <!-- starting row -->
+        <tr >
+          <!-- starting column -->
+          <td style="padding-left: 0em;">
+            <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+          </td>
+          <td>
+            ANNA DONA JAMES
+          </td>
+          <td style="padding-left:2em;">
+            <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+          </td>
+          <td>
+            PGK 302
+          </td>
+          <td>
+            2014-2019
+          </td>
+          <td>
+            Computer Science Engineering(CSE)
+          </td>
+          <td>
+            MCA
+          </td>
+          <!-- closing column -->
+        </tr>
+        <!-- closing row -->
+        <!-- starting row -->
+        <tr >
+          <td style="padding-left: 0em;">
+            <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+          </td>
+          <td>
+            ANNA JOY
+          </td>
+          <td style="padding-left:2em;">
+            <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+          </td>
+          <td>
+            PGK 301
+          </td>
+          <td>
+            2019
+          </td>
+          <td>
+            Computer Science Engineering(CSE)
+          </td>
+          <td>
+            B.Tech
+          </td>
+        </tr>
+        <tr >
+          <td style="padding-left: 0em;">
+            <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+          </td>
+          <td>
+            ARUN SUNNY
+          </td>
+          <td style="padding-left:2em;">
+            <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+          </td>
+          <td>
+            777
+          </td>
+          <td>
+            2019
+          </td>
+          <td>
+            Computer Science Engineering(CSE)
+          </td>
+          <td>
+            B.Tech
+          </td>
+        </tr>
+        <!-- closing row -->
+        <!-- starting row -->
+        <tr >
+          <!-- starting column -->
+          <td style="padding-left: 0em;">
+            <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+          </td>
+          <td>
+            ASWATHI K
+          </td>
+          <td style="padding-left:2em;">
+            <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+          </td>
+          <td>
+            1
+          </td>
+          <td>
+            2014-2019
+          </td>
+          <td>
+            Computer Science Engineering(CSE)
+          </td>
+          <td>
+            B.Tech
+          </td>
+          <!-- closing column -->
+        </tr>
+        <!-- closing row-->
+      <!-- starting row  -->
+        <tr >
+          <!-- starting column -->
+          <td style="padding-left: 0em;">
+            <input type="checkbox" name="vehicle1" value="Bike" class="input1">
+          </td>
+          <td>
+            ABHI SHAJEE
+          </td>
+          <td style="padding-left:2em;">
+            <i class="fa fa-angle-right" aria-hidden="true" style="color:green;"></i>
+          </td>
+          <td>
+            12
+          </td>
+          <td>
+            2019
+          </td>
+          <td>
+            Others(Others)
+          </td>
+          <td>
+            others
+          </td>
+          <!-- closing column -->
+        </tr>
+        <!-- closing row -->
+        <table>
+            <!-- closing table -->
+        </div>
+        <!-- closing div -->
+
+      </body>
+      </html>
