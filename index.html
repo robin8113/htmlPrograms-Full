@@ -1,103 +1,40 @@
-<html>
-<head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>freshgrad login</title>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  </head>
+  <body>
+    <!--starting a header-->
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-	<!-- starting a div -->
-	<div class="header">
-		<!-- starting another div -->
-		<div class="container_12">
-			<!-- starting another div -->
-			<div class="grid_5">
-				<img src="http://www.htmlandcssbook.com/code-samples/chapter-15/images/logo.png" alt="Pedal Faster - The modern bicycle magazine" width="216" height="37" class="logo" />
-				<img src="http://www.htmlandcssbook.com/code-samples/chapter-15/images/header-triangle.png" alt="" width="116" height="100" />
-			</div>
-			<!-- closing div -->
-			<!-- start div -->
-			<div class="nav grid_7">
-				<a href="">home</a> / <a href="">  news</a> / <a href="">archives</a> / <a href="">about</a> / <a href="">contact</a>
-			</div>
-			<!-- end div nav -->
-		</div>
-		<!-- end container -->
-	</div>
-	<!-- end header -->
-	<!-- start wrapper -->
-	<div class="wrapper">
-		<!-- start container -->
-		<div class="main-story container_12">
-			<!-- start grid_6 -->
-			<div class="grid_6 push_6">
-				<h1><a href="" style="font-size: xx-large;">Fixed Gear Forever</a></h1>
-			</div>
-			<!-- end grid_6 -->
-			<!-- start intro -->
-			<div class="intro grid_3 push_9">
-				<p class="date">16 April 2016</p>
-				<p style="margin-left: 0em;line-height: 1em;font-size: 15px;">The veloheld combines minamlist design with superb quality.  Devoid of excessive graphics and gear shift components, the veloheld product range delights us with its beauty and simplicity.The black and white (yin and yang?) bicycles feature a short wheelbase, a single gear and a narrow handlebar... All you need to explore the city streets.
-					<br><br>
-					For those who want to create their bike themselves, the veloheld frames come in three sizes and two colours and are the perfect starting point. <p style="margin-left: 0em;line-height: 1em;font-size: 15px;color: #8e988a;">Continue reading....</p></p>
-				</div>
-				<!-- end intro -->
-			</div><!-- .main-story-->
-			<!-- start article -->
-			<div class="more-articles">
-				<!-- start grid_12 -->
-				<h2 class="grid_12"><a href="" style="margin-left: 28px;font-size: 20px;">More Articles</a></h2>
-				<!-- start container -->
-				<div class="container" style="width:100%;">
-					<!-- start a div -->
-					<div class="col-xs-6 col-md-3">
+    <div class="split left">
+        <!-- logo image -->
+        <div class="head">
+          <img src="Capture.png">
+        </div>
+      <!-- closing the div -->
+      <!--starting a div-->
+        <div class="centered1">
+            <h2 class="name"> Enter Credentials</h2>
+            <!-- Creating a form for input -->
+            <form action="login.html" method="post">
+                <input  class="form-control" type="text" name="text" placeholder="email" required="required"><br>
+                <input  class="form-control" type="text" name="pass" placeholder="password" required="required"><br>
+                <input type="submit" value="Login" class="log">
+                    <a href""><h4 style="text-align: start;margin-left: 83px;color: #10ba6f;font-weight: normal;">Forgot Password?</h4></a>
 
-						<img src="http://www.htmlandcssbook.com/code-samples/chapter-15/images/more1.jpg" alt="The road ahead" width="220" height="125" />
-						<p><br><a href="">On the Road: from the fixed gear fanatic's point of view</a></p>
-						<p><a href="">Brand History: Pashley Cycles - hand-built in Engand</a></p>
-						<p><a href="">Frame Wars: Innovations in cycle manufacture and repair</a></p>
-
-					</div>
-					<!-- closing the column div -->
-					<!-- start a div -->
-					<div class=" col-xs-6 col-md-3">
-						<img src="http://www.htmlandcssbook.com/code-samples/chapter-15/images/more2.jpg" alt="Sketchbook" width="220" height="125" />
-						<p><br><a href="">Touring Diary: A sketchbook in your basket</a></p>
-						<p><a href="">Top Ten Newcomers from 2012: A peek at what's to come.</a></p>
-						<p><a href="">InnerTube: The best cycling videos on the web</a></p>
-					</div>
-					<!-- closing div -->
-					<!-- start a div -->
-					<div class="col-xs-6 col-md-3">
-						<img src="http://www.htmlandcssbook.com/code-samples/chapter-15/images/more3.jpg" alt="Repair shop sign" width="220" height="125" />
-						<p><br><a href="">Product Review: All baskets were not created equal</a></p>
-						<p><a href="">Going Public: Out &amp: about with the founder of Public</a></p>
-						<p><a href="">Cycle Lane: Defence: Know your rights</a></p>
-					</div>
-					<!-- closing div -->
-					<!-- start a div -->
-					<div class="col-xs-6 col-md-3">
-						<img src="http://www.htmlandcssbook.com/code-samples/chapter-15/images/more4.jpg" alt="Schwinn Spitfire" width="220" height="125" />
-						<p><br><a href="">Bicyle Hall of Fame; The 1958 Schwinn Spitfire</a></p>
-						<p><a href="">Reader Survey: Share your thoughts with us</a></p>
-						<p><a href="">Chain Gang: The evolution of the humble bike chain</a></p>
-					</div>
-					<!-- closing div -->
-					</div>
-				<!-- closing container -->
-			</div><!-- .more-articles -->
-
-		</div><!-- .wrapper -->
-   <!-- footer star -->
-		<div class="footer clearfix">
-			<!-- starting div -->
-			<div class="container_12">
-				<p class="grid_12"><a href="">Legal Information</a> | <a href="">Privacy Policy</a> | <a href="">Copyright &copy: Pedal Faster 2011</a></p>
-			</div>
-			<!-- closing div -->
-		</div>
-		<!-- end footer -->
-	</body>
-	</html>
+           </form>
+      <!-- Closing the form for input -->
+        </div>
+    <!-- closing the div -->
+    </div>
+     <!-- starting a div -->
+        <div class="split right">
+            <img src="background.svg">
+        </div>
+      <!-- closing div -->
+  </body>
+</html>
