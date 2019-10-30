@@ -1,0 +1,79 @@
+
+body
+{
+      background-image: url("https://i0.wp.com/sociallover.net/wp-content/uploads/2019/04/woman-3214594_1920.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+.login
+{
+  height:22em;
+  width:30%;
+  background-color: #f1e1d3;
+  margin: 10% auto;
+  border-radius:44px;
+}
+.rob
+{
+  margin: 5% auto;
+}
+.inp
+{
+  align:center;
+
+  border-radius: 10px;
+  margin: 6% -2% 0 10%;
+}
+input
+{
+  height: 34px;
+  background: none;
+  width: 85%;
+  border-radius: 50px;
+  box-shadow: 3px solid yellow;
+  text-align: center;
+  font-family: 'Ubuntu' sans-serif;
+  color:vlack;
+  border:10px solid #e2d2c3;
+ font-size: larger;
+}
+h1
+{
+  font-family:  sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  color:#12174e;
+  padding: 7px
+}
+.button
+{
+    height: 37px;
+    width: 30%;
+    border-radius: 50px;
+    background: linear-gradient(45deg, #700303, #ac1709);
+    margin-left: 30%;
+    color:white;
+    border: 5px solid #e2d2c3;
+}
+.head
+{
+  text-align: center;
+  color:black;
+  font-family:  sans-serif;
+  margin-bottom: 10px;
+}
+h3:hover
+{
+  color:red;
+  text-overflow: initial;
+}
+input:hover
+{
+  border: 8px solid #ded5d5;
+  color:red;
+}
+.button:hover
+{
+    border: 3px solid #ded5d5;
+    cursor: pointer;
+}

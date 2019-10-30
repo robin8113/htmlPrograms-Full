@@ -1,0 +1,50 @@
+.robi
+{
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 300px;
+  width:200px;
+  background-color: red;
+}
+.ree{
+  height: 50px;
+  width:200px;
+  background-color: green;
+  color: white;
+}
+.ree1{
+  height: 50px;
+  width:200px;
+  background-color: yellow;
+  z-index: 1;
+}
+.ree2{
+  height: 50px;
+  width:200px;
+  background-color: blue;
+  z-index: 1;
+}
+a
+{
+  color: white;
+  text-decoration: none;
+}
+.box{
+  height: 400px;
+  width:400px;
+  background-color: red;
+  margin: auto;
+  margin-top: 25px;
+}
+li:hover
+{
+   text-decoration: line-through;
+}
+li
+{
+  font-size: 30px;
+  margin-left: 6em;
+}
+ul li{
+      list-style-type: square;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>notepad</title>
+    <link href="css/Style1.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 " style="background-color:white;height:20em;">
+          <h4><i><center>Html</center></h4>
+          <textarea name="rob" id="fs1" rows="8" cols="40"></textarea>
+          </div>
+          <div class="col-md-4 col-sm-12" style="background-color:white;height:20em;">
+            <h4><i><center>Css</center></h4>
+             <textarea name="rob" id="fs1" rows="8" cols="40"></textarea>
+            </div>
+            <div class="col-md-4 col-sm-12" style="background-color:white;height:20em;">
+              <h4><i><center>Js</center></h4>
+              <textarea name="rob" id="fs1" rows="8" cols="40" ></textarea>
+              </div>
+             <button type="button" name="button" onclick="disp()" class="btn  btn-success">Submitt</button>
+
+        </div>
+      </div>
+         <p id="ro1"></p>
+  </body>
+
+  <script type="text/javascript">
+    function disp()
+    {
+      document.getElementById('ro1').innerHTML=document.getElementById('fs1').value;
+    }
+  </script>
+</html>
